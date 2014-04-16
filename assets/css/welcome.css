@@ -1,0 +1,16 @@
+body{
+	width:100%;
+}
+
+.welcomeMessage{
+	margin:40px;
+	padding:20px;
+	color:#fff;
+	background:rgba(0,0,0,0.5);	
+}
+
+.instructions{
+	margin:40px;
+	padding:20px;
+	background:rgba(255,255,255,0.5);	
+}

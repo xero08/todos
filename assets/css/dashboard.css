@@ -1,0 +1,40 @@
+.mainDiv{
+	background:rgba(255,255,255,0.5);
+	margin:40px;
+	padding:20px;
+	min-height:580px;
+}
+
+.tasksTable{
+	width:100%;	
+}
+
+.tasksTable tr td{
+	padding:15px;
+	width:16.67%;
+	text-align: center;
+}
+
+.tasksTable tr:nth-child(1){
+	font-weight:bold;
+	background:rgba(200,100,200,0.5) !important;
+}
+
+.tasksTable tr:nth-child(odd){
+	background:rgba(255,255,0,0.5);
+}
+
+.tasksTable tr:nth-child(even){
+	background:rgba(255,0,55,0.5);
+}
+
+.truncate {
+  width: 150px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+#buttonsDiv{
+	margin-top:5%;
+}

@@ -1,0 +1,40 @@
+.mainDiv{
+	background:rgba(255,255,255,0.5);
+	margin:40px;
+	padding:20px;
+	min-height:580px;
+}
+
+.fullStretch{
+	width:100%;
+	margin:auto;
+}
+
+.fullStretch tr td{
+	padding:20px;
+	font-size: 140%;
+}
+
+.fullStretch tr td:nth-child(1){
+	font-weight: bold;	
+	color:red;
+	width:25%;
+}
+
+.fullStretch tr td:nth-child(3){
+	text-align: justify;	
+}
+
+#buttonsDiv{
+	position: relative;
+	bottom: 0;
+}
+
+textarea{
+	resize:none;
+}
+
+.customSize{
+	width:initial;
+	display: inline;
+}
